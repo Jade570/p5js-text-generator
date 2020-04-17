@@ -1,4 +1,4 @@
-#hellolabel{ //you should put '#' before the name of the textblock
+#hello world{ //you should put '#' before the name of the textblock
       text-align: center; //left, right, justify
-      color:black;
+      color:yellow;
     }
