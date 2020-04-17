@@ -1,20 +1,7 @@
-let word;
-
-function setup() {
-
-word = label("hello world", "right", "yellow", 10, 10, 10);
+let word1;
 
 
-//adding objects(DOM) to the textblock
-slider = createSlider(0, 360, 120);
-slider.position(0, 50); //how much further from the 'textblock'
-slider.parent(word); //type the textblock's variable which slider is related to
-}
-
-function draw() {
-}
-
-
+///label function///
 function label(text, align, color, size, x, y){
   let div = createDiv(text);
   div.id(text);
@@ -23,4 +10,18 @@ function label(text, align, color, size, x, y){
   div.style('color', color);
   div.style('font-size', size+'px');
   return div.id(text);
+}
+
+
+
+
+//example
+function setup() {
+
+word = label("hello", "right", "blue", 18, 10, 10);
+
+//adding objects(DOM) to the textblock
+slider = createSlider(0, 100);
+slider.position(0, 20); //how much further from the label
+slider.parent(word); //type the label's variable which slider is related to
 }
