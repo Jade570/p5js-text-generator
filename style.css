@@ -1,3 +1,9 @@
-#sss{ //you should put '#' before the name of the textblock
+#hello{
+  color: yellow;
+}
+//properties given in "label function" precedes before stylesheet.
+
+#I{
 font-family: 'Playfair Display', serif;
     }
+//please use stylesheet for giving additional style only.
