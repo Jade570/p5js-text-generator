@@ -5,5 +5,5 @@ function label(text, id, align, color, size, x, y){
   div.style ('textAlign',align);
   div.style('color', color);
   div.style('font-size', size+'px');
-  return div.id(id);
+  return div.id(id); //return the textblock's id
 }
